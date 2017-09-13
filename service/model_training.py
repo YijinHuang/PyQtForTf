@@ -68,14 +68,12 @@ def model_jugde(data, txt_win, label=None, model_path=model_path):
                     [data[0][i - 2], data[0][i - 1], data[0][i], data[0][i + 1], data[0][i + 2], data[1][i], data[2][i],
                      data[3][i], data[4][i],
                      data[5][i]]]})
-
-                log = "At step" + str(i) + "   model_pred:" + str(model_pred[0][0])
-                txt_win.result_txt.append(log)
+                if i % 10 == 0:
+                    log = "For preople id" + str(i) + "   model_pred:" + str(model_pred[0][0])
+                    txt_win.result_txt.append(log)
 
     except Exception as e:
         txt_win.result_txt.append('error: %s' % e)
 
 # model(data_pre.deal_data("wrist.csv",cut=True), data_pre.deal_label("wrist.csv"))
 # model_jugde(data_pre.deal_data("wrist.csv",cut=True), label = data_pre.deal_label("wrist.csv") )
-
-
