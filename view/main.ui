@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>表格：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="choose1_bt">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>30</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>选择文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="train_bt">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>训练</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="judge_bt">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>判断</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>结果：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="path1_txt">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="result_txt">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>421</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>choose1_bt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>choose1_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>456</x>
+     <y>34</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>485</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>train_bt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>train_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>226</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>judge_bt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>judge_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>337</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>choose1_click()</slot>
+  <slot>choose2_click()</slot>
+  <slot>choose3_click()</slot>
+  <slot>train_click()</slot>
+  <slot>judge_click()</slot>
+ </slots>
+</ui>

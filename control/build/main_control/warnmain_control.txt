@@ -1,0 +1,21 @@
+missing module named resource - imported by posix, E:\PyQt\PyQt_project\control\main_control.py
+missing module named posix - imported by os, E:\PyQt\PyQt_project\control\main_control.py
+missing module named _posixsubprocess - imported by subprocess, E:\PyQt\PyQt_project\control\main_control.py
+missing module named 'org.python' - imported by pickle, E:\PyQt\PyQt_project\control\main_control.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, E:\PyQt\PyQt_project\control\main_control.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\PyQt\PyQt_project\control\main_control.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\PyQt\PyQt_project\control\main_control.py
+missing module named _winreg - imported by platform, E:\PyQt\PyQt_project\control\main_control.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\PyQt\PyQt_project\control\main_control.py
+missing module named 'java.lang' - imported by platform, E:\PyQt\PyQt_project\control\main_control.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, E:\PyQt\PyQt_project\control\main_control.py
+missing module named termios - imported by tty, E:\PyQt\PyQt_project\control\main_control.py, getpass
+missing module named grp - imported by shutil, tarfile, E:\PyQt\PyQt_project\control\main_control.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, E:\PyQt\PyQt_project\control\main_control.py, netrc, getpass
+missing module named ce - imported by os, E:\PyQt\PyQt_project\control\main_control.py
+missing module named org - imported by copy, E:\PyQt\PyQt_project\control\main_control.py
+missing module named _dummy_threading - imported by dummy_threading, E:\PyQt\PyQt_project\control\main_control.py
+missing module named service - imported by E:\PyQt\PyQt_project\control\main_control.py
+missing module named view - imported by E:\PyQt\PyQt_project\control\main_control.py
+missing module named PyQt5 - imported by E:\PyQt\PyQt_project\control\main_control.py
